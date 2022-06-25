@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-zinc-900 text-gray-100;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+/*CMS = content menagent system
+
+wordpress traz tanto o painel de adimin tanto a parte visual do front-end(temas)
+ headless CMS (GraphQL): painel adimin (dados fornecidos atravez de uma API REST ou GraphQL
+
+react que consome essa api ou cms
+
+ GraphQL importante = queri ou mutation
+
+ queri buscar dados exemplo se eu queoro uma aula especifica vou buscar dados em query
+
+ mutation = criar, alterar ou deletar dados */
