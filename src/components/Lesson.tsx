@@ -45,7 +45,7 @@ export function Lesson(props: LessonProps){
             Em breve
           </span>
           )}
-          <span className={classNames('text-xs rounded py-[0.125rem] px-0.5 text-white border font-bold', {
+          <span className={classNames('text-xs rounded py-[0.125rem] px-1.5 text-white border font-bold', {
             'border-white': isActiveLesson,
             'border-green-300':!isActiveLesson,
           })}>
