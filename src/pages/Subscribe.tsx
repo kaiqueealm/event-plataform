@@ -17,7 +17,7 @@ export function Subscribe(){
           </p>
 
         </div>
-        <div className="p-5 bg-gray-500 border border-gray-500 rounded">
+        <div className="p-4 bg-gray-500 border border-gray-500 rounded">
           <strong className="text-2xl mb-6 block">Inscreva-se gratuitamente</strong>
 
           <form action="" className="flex flex-col gap-2 w-full">
@@ -31,6 +31,14 @@ export function Subscribe(){
               type="text" 
               placeholder="Digite seu e-mail" 
             />
+
+            <button 
+            type="submit"
+            className="mt-4 bg-green-500 uppercase py-3 rounded font-bold hover:bg-green-700 transition-colors"
+            >
+              Garantir minha vaga
+            </button>
+
           </form>
 
         </div>
