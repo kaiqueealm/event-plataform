@@ -1,8 +1,5 @@
 {
-<<<<<<< HEAD
   "rewrites": [{ "source": "/(.*)", "destination": "/" }],
   "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
-=======
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
->>>>>>> 946a067619a18cb7b853fba1760338ec03ba1783
+
 }
